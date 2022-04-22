@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EMP" directorySegmentName="seg_0" id="0670E61C-4D31-6EC3-C221-C73DDD540519">
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<schemaObject>577459E0-B030-7AD1-AD79-F0DD3FA4D1DA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5AE68D9F-6A17-3415-E0DD-1D86EE3E9062</segment>
+<tableSpace>F715E245-AD41-CCB2-5D1F-65FDEA339C0D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SAL" id="06A813EC-EBD0-C07B-2B6C-986DB7EE43F6">
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIREDATE" id="3381C663-59C0-F190-50B4-E6988A0CD50C">
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MGR" id="40337529-3757-3875-51CE-8210DF580061">
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENAME" id="4A77AD32-9EAA-900F-E3ED-D9F6F3A7636C">
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMM" id="58BA3F15-6CA0-6DA5-A80B-9D6D83CD8BE8">
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPTNO" id="62429F61-F58C-1CB8-CBDA-662F409B7A17">
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPNO" id="7380ACBA-F710-C2CB-DD61-060E2AE991AE">
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB" id="D89C9E42-E832-D0C5-40A0-47853E8B1CC0">
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_EMP" id="869680B6-25A3-09CC-3F0A-7C2710A6A410">
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<schemaObject>577459E0-B030-7AD1-AD79-F0DD3FA4D1DA</schemaObject>
+<segment>491A18E7-2B64-212B-747C-7EB51D1806D5</segment>
+<tableSpace>F715E245-AD41-CCB2-5D1F-65FDEA339C0D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_EMP" id="BA51B9E0-B5BE-75A1-9DFA-25D276F381AB">
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<segment>491A18E7-2B64-212B-747C-7EB51D1806D5</segment>
+<tableSpace>F715E245-AD41-CCB2-5D1F-65FDEA339C0D</tableSpace>
+<existingIndex>869680B6-25A3-09CC-3F0A-7C2710A6A410</existingIndex>
+<indexSegment>491A18E7-2B64-212B-747C-7EB51D1806D5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

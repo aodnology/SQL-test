@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0670E61C-4D31-6EC3-C221-C73DDD540519" schemaObject="577459E0-B030-7AD1-AD79-F0DD3FA4D1DA" name="EMP">
+<sourceConnName>DB_test</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMP</sourceObjName>
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPNO" id="7380ACBA-F710-C2CB-DD61-060E2AE991AE">
+<sourceConnName>DB_test</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENAME" id="4A77AD32-9EAA-900F-E3ED-D9F6F3A7636C">
+<sourceConnName>DB_test</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>ENAME</sourceObjName>
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB" id="D89C9E42-E832-D0C5-40A0-47853E8B1CC0">
+<sourceConnName>DB_test</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>JOB</sourceObjName>
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MGR" id="40337529-3757-3875-51CE-8210DF580061">
+<sourceConnName>DB_test</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>MGR</sourceObjName>
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIREDATE" id="3381C663-59C0-F190-50B4-E6988A0CD50C">
+<sourceConnName>DB_test</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>HIREDATE</sourceObjName>
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SAL" id="06A813EC-EBD0-C07B-2B6C-986DB7EE43F6">
+<sourceConnName>DB_test</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>SAL</sourceObjName>
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMM" id="58BA3F15-6CA0-6DA5-A80B-9D6D83CD8BE8">
+<sourceConnName>DB_test</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>COMM</sourceObjName>
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPTNO" id="62429F61-F58C-1CB8-CBDA-662F409B7A17">
+<sourceConnName>DB_test</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>DEPTNO</sourceObjName>
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA51B9E0-B5BE-75A1-9DFA-25D276F381AB" name="PK_EMP">
+<sourceConnName>DB_test</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_EMP</sourceObjName>
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7380ACBA-F710-C2CB-DD61-060E2AE991AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="869680B6-25A3-09CC-3F0A-7C2710A6A410" schemaObject="577459E0-B030-7AD1-AD79-F0DD3FA4D1DA" name="PK_EMP">
+<sourceConnName>DB_test</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_EMP</sourceObjName>
+<createdBy>data-9</createdBy>
+<createdTime>2022-04-22 04:11:21 UTC</createdTime>
+<ownerDesignName>emp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7380ACBA-F710-C2CB-DD61-060E2AE991AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
